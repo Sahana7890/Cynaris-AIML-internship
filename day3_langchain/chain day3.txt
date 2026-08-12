@@ -1,0 +1,32 @@
+from langchain_core.prompts import PromptTemplate
+from langchain_ollama import OllamaLLM
+from langchain_core.output_parsers import StrOutputParser
+
+# Create prompt
+prompt = PromptTemplate(
+    input_variables=["topic"],
+    template="Explain {topic} in simple terms for a beginner."
+)
+
+# Create Ollama LLM
+llm = OllamaLLM(model="llama3.2:3b")
+
+# Create output parser
+parser = StrOutputParser()
+
+# Build chain
+chain = prompt | llm | parser
+
+# Test with 5 inputs
+topics = [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "LangChain",
+    "Python",
+    "Large Language Models"
+]
+
+for topic in topics:
+    print("\nTopic:", topic)
+    result = chain.invoke({"topic": topic})
+    print("Response:", result)
