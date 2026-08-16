@@ -1,0 +1,41 @@
+from langchain_ollama import OllamaLLM
+from langchain_core.tools import tool
+
+
+# Tool 1: Web search stub
+@tool
+def web_search(query: str) -> str:
+    """Simulates a web search."""
+    return f"Web search result for '{query}': LangChain is a framework for building LLM applications."
+
+
+# Tool 2: Calculator
+@tool
+def calculator(expression: str) -> str:
+    """Calculates a mathematical expression."""
+    try:
+        result = eval(expression, {"__builtins__": {}})
+        return str(result)
+    except Exception:
+        return "Invalid mathematical expression."
+
+
+# Create tools
+tools = [web_search, calculator]
+
+# Display available tools
+print("Available Tools:")
+
+for tool in tools:
+    print("-", tool.name)
+
+
+# Test 3 tasks
+print("\n--- Task 1: Web Search ---")
+print(web_search.invoke("What is LangChain?"))
+
+print("\n--- Task 2: Calculator ---")
+print(calculator.invoke("25 * 4 + 10"))
+
+print("\n--- Task 3: Web Search ---")
+print(web_search.invoke("What is Ollama?"))

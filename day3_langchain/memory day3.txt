@@ -1,0 +1,45 @@
+from langchain_ollama import OllamaLLM
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.messages import HumanMessage, AIMessage
+
+llm = OllamaLLM(model="llama3.2:3b")
+
+# Conversation history
+history = []
+
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a helpful assistant. Remember the conversation."),
+    MessagesPlaceholder(variable_name="history"),
+    ("human", "{input}")
+])
+
+chain = prompt | llm
+
+# Five conversation turns
+questions = [
+    "My name is Sahana.",
+    "What is my name?",
+    "I am learning LangChain.",
+    "What am I learning?",
+    "Can you summarize what you know about me from this conversation?"
+]
+
+for question in questions:
+
+    print("\nUser:", question)
+
+    response = chain.invoke({
+        "history": history,
+        "input": question
+    })
+
+    print("Assistant:", response)
+
+    # Save conversation
+    history.append(HumanMessage(content=question))
+    history.append(AIMessage(content=response))
+
+print("\n--- Conversation History ---")
+
+for message in history:
+    print(message.type, ":", message.content)
