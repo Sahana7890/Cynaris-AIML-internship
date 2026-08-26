@@ -1,0 +1,7 @@
+Machine Learning
+
+Machine Learning is a branch of Artificial Intelligence that enables computers to learn patterns from data without being explicitly programmed for every task.
+
+The three common types of machine learning are supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning uses labeled data. Unsupervised learning works with unlabeled data. Reinforcement learning learns through rewards and penalties.

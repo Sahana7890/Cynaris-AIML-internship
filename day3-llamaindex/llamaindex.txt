@@ -1,0 +1,9 @@
+LlamaIndex
+
+LlamaIndex is a framework for building applications that use large language models with external data.
+
+LlamaIndex can load documents, create indexes, generate embeddings, retrieve relevant information, and build query engines.
+
+VectorStoreIndex is an index type that stores document information using vector embeddings.
+
+A QueryEngine can be used to ask questions about indexed documents and generate answers based on retrieved information.
