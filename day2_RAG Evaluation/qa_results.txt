@@ -1,0 +1,186 @@
+Q1: What is Artificial Intelligence?
+A1: I don't know based on the provided information.
+CONTEXT:
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Q2: What is Machine Learning?
+A2: Machine Learning is a subset of Artificial Intelligence that allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+CONTEXT:
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Q3: What is Deep Learning?
+A3: Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers.
+CONTEXT:
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Q4: What is Natural Language Processing?
+A4: Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+CONTEXT:
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. A RAG system first retrieves relevant information from a knowledge base and then provides that information to a language model to generate an answer.
+
+Vector databases store numerical representations called embeddings. Embeddings represent the semantic meaning of text and allow systems to find documents that are semantically similar to a query.
+
+Q5: What is Generative AI?
+A5: I don't know based on the provided information.
+CONTEXT:
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Q6: What is Retrieval-Augmented Generation?
+A6: Retrieval-Augmented Generation (RAG) combines information retrieval with a language model.
+CONTEXT:
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. A RAG system first retrieves relevant information from a knowledge base and then provides that information to a language model to generate an answer.
+
+Vector databases store numerical representations called embeddings. Embeddings represent the semantic meaning of text and allow systems to find documents that are semantically similar to a query.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Q7: What are embeddings?
+A7: Embeddings represent the semantic meaning of text and are numerical representations stored in vector databases.
+CONTEXT:
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. A RAG system first retrieves relevant information from a knowledge base and then provides that information to a language model to generate an answer.
+
+Vector databases store numerical representations called embeddings. Embeddings represent the semantic meaning of text and allow systems to find documents that are semantically similar to a query.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Q8: What is ChromaDB?
+A8: ChromaDB is a vector database.
+CONTEXT:
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. A RAG system first retrieves relevant information from a knowledge base and then provides that information to a language model to generate an answer.
+
+Vector databases store numerical representations called embeddings. Embeddings represent the semantic meaning of text and allow systems to find documents that are semantically similar to a query.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Q9: What is LangChain?
+A9: LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+CONTEXT:
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. A RAG system first retrieves relevant information from a knowledge base and then provides that information to a language model to generate an answer.
+
+Vector databases store numerical representations called embeddings. Embeddings represent the semantic meaning of text and allow systems to find documents that are semantically similar to a query.
+
+Q10: What is Human-in-the-Loop?
+A10: Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+CONTEXT:
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+

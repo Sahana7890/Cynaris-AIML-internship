@@ -1,0 +1,19 @@
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers. Deep Learning is commonly used for image recognition, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+Generative AI is a type of Artificial Intelligence that can generate new content such as text, images, audio, video, and computer code.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with a language model. A RAG system first retrieves relevant information from a knowledge base and then provides that information to a language model to generate an answer.
+
+Vector databases store numerical representations called embeddings. Embeddings represent the semantic meaning of text and allow systems to find documents that are semantically similar to a query.
+
+ChromaDB is a vector database commonly used for storing and searching embeddings in AI applications.
+
+LangChain is a framework used to build applications powered by language models. It provides components for prompts, document loaders, retrievers, chains, and agents.
+
+Human-in-the-Loop systems involve humans in the decision-making process of an AI system. Human validation can improve reliability and help identify incorrect AI-generated results.
