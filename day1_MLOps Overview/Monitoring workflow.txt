@@ -1,0 +1,25 @@
+User Request
+     |
+     v
+ML API
+     |
+     v
+Prediction
+     |
+     v
+Log Metrics
+     |
+     v
+Monitor API + Model
+     |
+     v
+Detect Errors / Drift
+     |
+     v
+Trigger Retraining
+     |
+     v
+Validate New Model
+     |
+     v
+Deploy
