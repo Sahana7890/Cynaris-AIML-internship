@@ -1,0 +1,23 @@
+Retrieval-Augmented Generation, or RAG, combines information retrieval with generative AI. A RAG system first retrieves relevant documents from a knowledge base and then provides those documents to a language model as context.
+
+LangChain is a framework for developing applications powered by language models. It provides components for document loading, text splitting, retrieval, prompts, and model interaction.
+
+ChromaDB is a vector database that stores embeddings and allows applications to retrieve documents based on semantic similarity.
+
+Ragas is an evaluation framework for evaluating RAG applications. Important evaluation metrics include faithfulness, answer relevancy, context precision, and context recall.
+
+Faithfulness measures whether the generated answer is supported by the retrieved context.
+
+Answer relevancy measures how relevant the generated answer is to the user's question.
+
+Context precision evaluates whether the retrieved context contains relevant information for answering the question.
+
+Context recall evaluates whether the retrieved information contains the information required to answer the question.
+
+MLflow is an open-source platform for tracking machine learning experiments, parameters, metrics, and model artifacts.
+
+Ollama allows large language models to run locally on a computer. Running an LLM locally can be useful when application data should remain on the local machine.
+
+Pytest is a Python testing framework used to write and execute automated tests.
+
+MLOps combines machine learning development and operations practices to improve reproducibility, tracking, deployment, monitoring, and maintenance of ML systems.
