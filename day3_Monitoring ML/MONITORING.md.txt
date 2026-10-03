@@ -1,0 +1,94 @@
+# ML API Monitoring Strategy
+
+## 1. Overview
+
+The ML API should be monitored continuously to make sure that the API,
+infrastructure, and machine learning model are working correctly.
+
+## 2. API Metrics
+
+The following API metrics should be tracked:
+
+- Total number of requests
+- Request latency
+- API response time
+- HTTP 4xx errors
+- HTTP 5xx errors
+- API availability
+- Failed prediction requests
+
+## 3. ML Model Metrics
+
+The following machine learning metrics should be monitored:
+
+- Prediction distribution
+- Prediction confidence
+- Model accuracy
+- Precision
+- Recall
+- F1-score
+- Input feature distribution
+- Data drift
+- Model performance degradation
+
+## 4. Infrastructure Metrics
+
+The following infrastructure metrics should be tracked:
+
+- CPU usage
+- Memory usage
+- Docker container status
+- Container restart count
+- Disk usage
+
+## 5. Alerts
+
+Alerts should be configured when:
+
+- The API is unavailable for more than 1 minute.
+- HTTP 5xx error rate exceeds 5%.
+- Average API latency exceeds 1 second.
+- The Docker container repeatedly restarts.
+- Memory usage exceeds 80%.
+- Significant data drift is detected.
+- Model performance falls below the defined threshold.
+
+## 6. Retraining Triggers
+
+The model should be considered for retraining when:
+
+1. Significant data drift is detected.
+2. Model accuracy decreases below the acceptable threshold.
+3. Precision or recall decreases significantly.
+4. The distribution of incoming data changes.
+5. A sufficient amount of new labelled data becomes available.
+6. Production predictions show degraded performance.
+
+## 7. Retraining Workflow
+
+```text
+New Data
+   |
+   v
+Data Validation
+   |
+   v
+Detect Data Drift
+   |
+   v
+Train New Model
+   |
+   v
+Evaluate Model
+   |
+   v
+Compare With Current Model
+   |
+   v
+Human/Automated Validation
+   |
+   v
+Deploy New Model
+   |
+   v
+Monitor Production
